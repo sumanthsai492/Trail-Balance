@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trail Balance
+    </title>
+    <script src="js.js"></script>
+    <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <div class="section">
+     <div class="container">
+      <div class="Credit">
+       <input id="Credit" type="number" maxlength="5" placeholder="100"/>
+       <button onclick="myCredit()">Credit</button>
+      </div>
+      <div class="Debit">
+    
+        <input id="Debit" type="number" maxlength="5" placeholder="100"/>
+        <button onclick="myDebit()">Debit</button>
+      </div>
+     </div>
+     <div class="Table">
+     <table id="table">
+        <tr>
+            <td>
+                Amount Credited/Debited
+            </td>
+        </tr>
+        <tr id="sumRow">
+            <td>Total:</td>
+            <td id="sumCell"></td>
+          </tr>
+     </table>
+     </div>
+    </div>
+</body>
+</html>
